@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@200&family=Roboto+Serif:opsz,wght@8..144,100&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #e6e1d5;
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
+}
+
+/* Media Queries */
+@media (min-width: 992px) {
+  #navbarText .navbar-nav {
+    width: 600px;
+    justify-content: space-between;
+    letter-spacing: 0.35rem;
+  }
+
+  .navbar-brand {
+    letter-spacing: 0.6rem;
+  }
+  .hello h3 {
+    font-family: 'Roboto Serif', serif;
+    margin-bottom: 2rem;
+    letter-spacing: 0.75rem;
+  }
+
+  .hello h2 {
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 0;
+  }
+
+  .hello__adjectives {
+    width: 30%;
+    font-size: 1rem;
+  }
+
+  .hello__adjectives p {
+    font-family: 'Lora', serif;
+    line-height: 15px;
+    width: 450px;
+  }
+
+  .hello__btns .btn-lg {
+    margin-right: 1rem;
+  }
+
+  /* THis is incomplete */
+  .hello__images img {
+    border-bottom-left-radius: 30%;
+    height: 500px;
+    position: relative;
+  }
+  /* #E18335 orange*/
+  /* #F9DC5C yellow */
+  /* #395C6B blue */
+  /* #847979 rocket metallic */
+  .hello__shadow {
+    background-color: #847979;
+    position: absolute;
+    height: 495px;
+    width: 30%;
+    z-index: -1;
+    bottom: 24%;
+    right: 13%;
+  }
+
+  .hello__circle {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: rgba(20, 20, 20, 0.4);
+    border-radius: 100%;
+    filter: blur(3rem);
+  }
+
+  .hello__circle2 {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: rgba(80, 20, 20, 0.4);
+    border-radius: 100%;
+    filter: blur(3rem);
+    left: 10rem;
+    top: 10rem;
+  }
+
+  .hello__circle3 {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: rgba(80, 20, 20, 0.4);
+    border-radius: 100%;
+    filter: blur(3rem);
+    left: 20rem;
+    top: 10rem;
+  }
+
+  .hello__circle4 {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: rgba(62, 51, 9, 0.4);
+    border-radius: 100%;
+    filter: blur(3rem);
+    right: 2rem;
+    bottom: 8rem;
+  }
+
+  .hello {
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+  }
+  .noun {
+    color: #5b8c5a;
+  }
+}
